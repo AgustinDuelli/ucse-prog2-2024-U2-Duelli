@@ -36,4 +36,8 @@ gradle.cache/
 *.ipr
 *.iws
 *.idea/
+Ejemplo/.gradle
+Ejemplo/.idea
+.idea
+Ejemplo/build
 
