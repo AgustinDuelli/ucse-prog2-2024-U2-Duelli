@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AvionComercialTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-29T02:24:25" hostname="DESKTOP-EGJAB17" time="0.039">
-  <properties/>
-  <testcase name="testCalcularConsumoAvionComercialRetorna50()" classname="AvionComercialTest" time="0.036"/>
-  <testcase name="testObtenerConsumoCombustibleRetorna10()" classname="AvionComercialTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

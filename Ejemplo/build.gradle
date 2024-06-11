@@ -9,9 +9,9 @@ jacoco {
 
 jacocoTestReport {
     reports {
-        xml.required
-        html.required
-        csv.required
+    xml.required
+    html.required
+    csv.required
     }
     dependsOn test
 }
@@ -39,9 +39,9 @@ test {
     finalizedBy('jacocoTestReport')
 }
 
-// Generate task that runs the benchmarks
 task runJmh(type: JavaExec) {
     main = 'org.openjdk.jmh.Main'
-    classpath = sourceSets.main.runtimeClasspath
-    args = ['-f', '1', '-wi', '5', '-i', '5', '-r', '5', '-t', '1', '.*Benchmark.*']
+    classpath = sourceSets.test.runtimeClasspath
+    args = ['-f', '1', '-wi', '5', '-i', '5', '-r',
+            '5', '-t', '1', '.*Benchmark.*']
 }
