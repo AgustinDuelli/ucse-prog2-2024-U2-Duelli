@@ -1,12 +1,16 @@
+# Jacoco - Reporte de cobertura
+
+![image](https://github.com/AgustinDuelli/ucse-prog2-2024-U2-Duelli/assets/130614935/959be046-627f-4026-8dc2-93b1cc1ef744)
+
 # Benchmark
 
-![image](https://github.com/AgustinDuelli/ucse-prog2-2024-U2-Duelli/assets/130614935/4eef06c0-d92c-468c-8ac1-9d3f03f16d7c)
+![image](https://github.com/AgustinDuelli/ucse-prog2-2024-U2-Duelli/assets/130614935/fbac6065-3713-4926-85c5-943f27d7945e)
 
-En las pruebas realizadas se usa el modo "thrpt", es decir que la muestra es medida según la cantidad de operaciones que pueden ser completadas por segundo.
+En las pruebas realizadas se usa el modo "avgt", es decir que la muestra es medida según la cantidad de operaciones que pueden ser completadas por milisegundo en promedio.
 
-Se puede comprobar que el procesamiento en paralelo da 7.303 operaciones por segundo en promedio, siendo más performante que el procesamiento secuencial, pero tiene una tasa de error de 2.228 operaciones por segundo a diferencia de las 0,449 del procesamiento secuencial.
+Se puede comprobar que el procesamiento en paralelo tiene un tiempo promedio de 126,938 milisegundos, siendo más performante que el procesamiento secuencial de 137,674 milisegundos. La tasa de error del procesamiento paralelo es mayor sutilmente, lo cual no afecta el resultado final.
 
-Por lo tanto, se puede decir que el procesamiento en paralelo ofrece mayor cantidad de operaciones por segundo pero tiene una variabilidad mucho mayor en cuanto a su rendimiento en diferentes intentos.
+Por lo tanto, se puede decir que el procesamiento en paralelo ofrece mayor performance pero tiene una variabilidad un poco mayor en comparación con el procesamiento secuencial.
 
 Aumentando la cantidad de ejecuciones puede darse un significado estadísticamente significativo.
 
