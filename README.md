@@ -16,6 +16,3 @@ Aumentando la cantidad de ejecuciones puede darse un significado estadísticamen
 
 # Correcciones - Estado: 
 ## Trabajo Aprobado
-
-## Correcciones | Nice to have:
-- Ejercicio 4: Como están utilizando el método main, éste debería de ir en main.java, no en la carpeta de tests
